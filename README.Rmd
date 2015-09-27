@@ -1,6 +1,8 @@
 ---
 title: "Description of how scripts in run_analysis.R works"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 This document explains how the scripts in the file "run_analysis.R" works. At the start, assume that the file "run_analysis.R" and the folder "UCI HAR Dataset" that contains all the data files are already in the working directory.
 

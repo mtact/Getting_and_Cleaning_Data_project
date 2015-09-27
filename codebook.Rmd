@@ -1,6 +1,8 @@
 ---
 title: "Code Book"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 #Project description
@@ -54,437 +56,437 @@ As a reference, below are the components of a tidy data set:
   3. levels: "LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS"
   
 ###tBodyAcc.mean.X
-  1. The mean (for fixed subject and activity) of the means of body acceleration in the x-direction
+  1. The mean (for fixed subject and activity) of the means of body acceleration in the x-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyAcc-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "tBodyAcc-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
 
 ###tBodyAcc.mean.Y
-  1. The mean (for fixed subject and activity) of the means of body acceleration in the y-direction
+  1. The mean (for fixed subject and activity) of the means of body acceleration in the y-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyAcc-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "tBodyAcc-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
 
 ###tBodyAcc.mean.Z
-  1. The mean (for fixed subject and activity) of the means of body acceleration in the z-direction
+  1. The mean (for fixed subject and activity) of the means of body acceleration in the z-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyAcc-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "tBodyAcc-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
 
 ###tBodyAcc.std.X
-  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration in the x-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration in the x-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyAcc-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "tBodyAcc-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
   
 ###tBodyAcc.std.Y
-  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration in the y-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration in the y-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyAcc-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "tBodyAcc-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
 
 ###tBodyAcc.std.Z
-  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration in the z-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration in the z-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyAcc-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "tBodyAcc-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
 
 ###tGravityAcc.mean.X
-  1. The mean (for fixed subject and activity) of the means of gravity acceleration in the x-direction
+  1. The mean (for fixed subject and activity) of the means of gravity acceleration in the x-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tGravityAcc-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "tGravityAcc-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
   
 ###tGravityAcc.mean.Y
-  1. The mean (for fixed subject and activity) of the means of gravity acceleration in the y-direction
+  1. The mean (for fixed subject and activity) of the means of gravity acceleration in the y-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tGravityAcc-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "tGravityAcc-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
 
 ###tGravityAcc.mean.Z
-  1. The mean (for fixed subject and activity) of the means of gravity acceleration in the z-direction
+  1. The mean (for fixed subject and activity) of the means of gravity acceleration in the z-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tGravityAcc-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "tGravityAcc-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###tGravityAcc.std.X
-  1. The mean (for fixed subject and activity) of the standard deviations of gravity acceleration in the x-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of gravity acceleration in the x-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tGravityAcc-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "tGravityAcc-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
   
 ###tGravityAcc.std.Y
-  1. The mean (for fixed subject and activity) of the standard deviations of gravity acceleration in the y-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of gravity acceleration in the y-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tGravityAcc-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "tGravityAcc-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
 
 ###tGravityAcc.std.Z
-  1. The mean (for fixed subject and activity) of the standard deviations of gravity acceleration in the z-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of gravity acceleration in the z-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tGravityAcc-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "tGravityAcc-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###tBodyAccJerk.mean.X
-  1. The mean (for fixed subject and activity) of the means of body acceleration jerk in the x-direction
+  1. The mean (for fixed subject and activity) of the means of body acceleration jerk in the x-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyAccJerk-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "tBodyAccJerk-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
   
 ###tBodyAccJerk.mean.Y
-  1. The mean (for fixed subject and activity) of the means of body acceleration jerk in the y-direction
+  1. The mean (for fixed subject and activity) of the means of body acceleration jerk in the y-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyAccJerk-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "tBodyAccJerk-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
 
 ###tBodyAccJerk.mean.Z
-  1. The mean (for fixed subject and activity) of the means of body acceleration jerk in the z-direction
+  1. The mean (for fixed subject and activity) of the means of body acceleration jerk in the z-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyAccJerk-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit. 
+  4. In the raw data set the values of the feature denoted by "tBodyAccJerk-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit. 
 
 ###tBodyAccJerk.std.X
-  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration jerk in the x-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration jerk in the x-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyAccJerk-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "tBodyAccJerk-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###tBodyAccJerk.std.Y
-  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration jerk in the y-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration jerk in the y-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyAccJerk-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.    
+  4. In the raw data set the values of the feature denoted by "tBodyAccJerk-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.    
 
 ###tBodyAccJerk.std.Z
-  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration jerk in the z-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration jerk in the z-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyAccJerk-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "tBodyAccJerk-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###tBodyGyro.mean.X
-  1. The mean (for fixed subject and activity) of the means of body angular velocity in the x-direction
+  1. The mean (for fixed subject and activity) of the means of body angular velocity in the x-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyGyro-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit. 
+  4. In the raw data set the values of the feature denoted by "tBodyGyro-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit. 
   
 ###tBodyGyro.mean.Y
-  1. The mean (for fixed subject and activity) of the means of body angular velocity in the y-direction
+  1. The mean (for fixed subject and activity) of the means of body angular velocity in the y-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyGyro-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit. 
+  4. In the raw data set the values of the feature denoted by "tBodyGyro-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit. 
 
 ###tBodyGyro.mean.Z
-  1. The mean (for fixed subject and activity) of the means of body angular velocity in the z-direction
+  1. The mean (for fixed subject and activity) of the means of body angular velocity in the z-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyGyro-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.   
+  4. In the raw data set the values of the feature denoted by "tBodyGyro-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.   
 
 ###tBodyGyro.std.X
-  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity in the x-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity in the x-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyGyro-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "tBodyGyro-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
   
 ###tBodyGyro.std.Y
-  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity in the y-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity in the y-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyGyro-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "tBodyGyro-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
   
 ###tBodyGyro.std.Z
-  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity in the z-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity in the z-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyGyro-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "tBodyGyro-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
 
 ###tBodyGyroJerk.mean.X
-  1. The mean (for fixed subject and activity) of the means of body angular velocity jerk in the x-direction
+  1. The mean (for fixed subject and activity) of the means of body angular velocity jerk in the x-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyGyroJerk-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "tBodyGyroJerk-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###tBodyGyroJerk.mean.Y
-  1. The mean (for fixed subject and activity) of the means of body angular velocity jerk in the y-direction
+  1. The mean (for fixed subject and activity) of the means of body angular velocity jerk in the y-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyGyroJerk-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "tBodyGyroJerk-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
 
 ###tBodyGyroJerk.mean.Z
-  1. The mean (for fixed subject and activity) of the means of body angular velocity jerk in the z-direction
+  1. The mean (for fixed subject and activity) of the means of body angular velocity jerk in the z-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyGyroJerk-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.    
+  4. In the raw data set the values of the feature denoted by "tBodyGyroJerk-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.    
 
 ###tBodyGyroJerk.std.X
-  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity jerk in the x-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity jerk in the x-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyGyroJerk-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "tBodyGyroJerk-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
 
 ###tBodyGyroJerk.std.Y
-  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity jerk in the y-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity jerk in the y-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyGyroJerk-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "tBodyGyroJerk-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
   
 ###tBodyGyroJerk.std.Z
-  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity jerk in the z-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity jerk in the z-direction (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyGyroJerk-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "tBodyGyroJerk-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
 
 ###tBodyAccMag.mean
-  1. The mean (for fixed subject and activity) of the means of body acceleration magnitude
+  1. The mean (for fixed subject and activity) of the means of body acceleration magnitude (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyAccMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "tBodyAccMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###tBodyAccMag.std
-  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration magnitude
+  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration magnitude (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyAccMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "tBodyAccMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
 
 ###tGravityAccMag.mean
-  1. The mean (for fixed subject and activity) of the means of gravity acceleration magnitude
+  1. The mean (for fixed subject and activity) of the means of gravity acceleration magnitude (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tGravityAccMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "tGravityAccMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###tGravityAccMag.std
-  1. The mean (for fixed subject and activity) of the standard deviations of gravity acceleration magnitude
+  1. The mean (for fixed subject and activity) of the standard deviations of gravity acceleration magnitude (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tGravityAccMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "tGravityAccMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###tBodyAccJerkMag.mean
-  1. The mean (for fixed subject and activity) of the means of body acceleration jerk magnitude
+  1. The mean (for fixed subject and activity) of the means of body acceleration jerk magnitude (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyAccJerkMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "tBodyAccJerkMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###tBodyAccJerkMag.std
-  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration jerk magnitude
+  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration jerk magnitude (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyAccJerkMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.   
+  4. In the raw data set the values of the feature denoted by "tBodyAccJerkMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.   
 
 ###tBodyGyroMag.mean
-  1. The mean (for fixed subject and activity) of the means of body angular velocity magnitude
+  1. The mean (for fixed subject and activity) of the means of body angular velocity magnitude (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyGyroMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "tBodyGyroMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###tBodyGyroMag.std
-  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity magnitude
+  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity magnitude (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyGyroMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.   
+  4. In the raw data set the values of the feature denoted by "tBodyGyroMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.   
 
 ###tBodyGyroJerkMag.mean
-  1. The mean (for fixed subject and activity) of the means of body angular velocity jerk magnitude
+  1. The mean (for fixed subject and activity) of the means of body angular velocity jerk magnitude (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyGyroJerkMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "tBodyGyroJerkMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###tBodyGyroJerkMag.std
-  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity jerk magnitude
+  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity jerk magnitude (time domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "tBodyGyroJerkMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.     
+  4. In the raw data set the values of the feature denoted by "tBodyGyroJerkMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.     
   
   
   
   
   
 ###fBodyAcc.mean.X
-  1. The mean (for fixed subject and activity) of the means of body acceleration in the x-direction
+  1. The mean (for fixed subject and activity) of the means of body acceleration in the x-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyAcc-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "fBodyAcc-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
 
 ###fBodyAcc.mean.Y
-  1. The mean (for fixed subject and activity) of the means of body acceleration in the y-direction
+  1. The mean (for fixed subject and activity) of the means of body acceleration in the y-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyAcc-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "fBodyAcc-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
 
 ###fBodyAcc.mean.Z
-  1. The mean (for fixed subject and activity) of the means of body acceleration in the z-direction
+  1. The mean (for fixed subject and activity) of the means of body acceleration in the z-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyAcc-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "fBodyAcc-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
 
 ###fBodyAcc.std.X
-  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration in the x-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration in the x-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyAcc-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "fBodyAcc-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
   
 ###fBodyAcc.std.Y
-  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration in the y-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration in the y-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyAcc-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "fBodyAcc-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
 
 ###fBodyAcc.std.Z
-  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration in the z-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration in the z-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyAcc-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "fBodyAcc-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
 
 ###fBodyAccJerk.mean.X
-  1. The mean (for fixed subject and activity) of the means of body acceleration jerk in the x-direction
+  1. The mean (for fixed subject and activity) of the means of body acceleration jerk in the x-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyAccJerk-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "fBodyAccJerk-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
   
 ###fBodyAccJerk.mean.Y
-  1. The mean (for fixed subject and activity) of the means of body acceleration jerk in the y-direction
+  1. The mean (for fixed subject and activity) of the means of body acceleration jerk in the y-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyAccJerk-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "fBodyAccJerk-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
 
 ###fBodyAccJerk.mean.Z
-  1. The mean (for fixed subject and activity) of the means of body acceleration jerk in the z-direction
+  1. The mean (for fixed subject and activity) of the means of body acceleration jerk in the z-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyAccJerk-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit. 
+  4. In the raw data set the values of the feature denoted by "fBodyAccJerk-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit. 
 
 ###fBodyAccJerk.std.X
-  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration jerk in the x-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration jerk in the x-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyAccJerk-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "fBodyAccJerk-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###fBodyAccJerk.std.Y
-  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration jerk in the y-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration jerk in the y-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyAccJerk-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.    
+  4. In the raw data set the values of the feature denoted by "fBodyAccJerk-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.    
 
 ###fBodyAccJerk.std.Z
-  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration jerk in the z-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration jerk in the z-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyAccJerk-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "fBodyAccJerk-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###fBodyGyro.mean.X
-  1. The mean (for fixed subject and activity) of the means of body angular velocity in the x-direction
+  1. The mean (for fixed subject and activity) of the means of body angular velocity in the x-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyGyro-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit. 
+  4. In the raw data set the values of the feature denoted by "fBodyGyro-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit. 
   
 ###fBodyGyro.mean.Y
-  1. The mean (for fixed subject and activity) of the means of body angular velocity in the y-direction
+  1. The mean (for fixed subject and activity) of the means of body angular velocity in the y-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyGyro-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit. 
+  4. In the raw data set the values of the feature denoted by "fBodyGyro-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit. 
 
 ###fBodyGyro.mean.Z
-  1. The mean (for fixed subject and activity) of the means of body angular velocity in the z-direction
+  1. The mean (for fixed subject and activity) of the means of body angular velocity in the z-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyGyro-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.   
+  4. In the raw data set the values of the feature denoted by "fBodyGyro-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.   
 
 ###fBodyGyro.std.X
-  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity in the x-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity in the x-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyGyro-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "fBodyGyro-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
   
 ###fBodyGyro.std.Y
-  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity in the y-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity in the y-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyGyro-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "fBodyGyro-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
   
 ###fBodyGyro.std.Z
-  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity in the z-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity in the z-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyGyro-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "fBodyGyro-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
 
 ###fBodyGyroJerk.mean.X
-  1. The mean (for fixed subject and activity) of the means of body angular velocity jerk in the x-direction
+  1. The mean (for fixed subject and activity) of the means of body angular velocity jerk in the x-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyGyroJerk-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "fBodyGyroJerk-mean()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###fBodyGyroJerk.mean.Y
-  1. The mean (for fixed subject and activity) of the means of body angular velocity jerk in the y-direction
+  1. The mean (for fixed subject and activity) of the means of body angular velocity jerk in the y-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyGyroJerk-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "fBodyGyroJerk-mean()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
 
 ###fBodyGyroJerk.mean.Z
-  1. The mean (for fixed subject and activity) of the means of body angular velocity jerk in the z-direction
+  1. The mean (for fixed subject and activity) of the means of body angular velocity jerk in the z-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyGyroJerk-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.    
+  4. In the raw data set the values of the feature denoted by "fBodyGyroJerk-mean()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.    
 
 ###fBodyGyroJerk.std.X
-  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity jerk in the x-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity jerk in the x-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyGyroJerk-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "fBodyGyroJerk-std()-X" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
 
 ###fBodyGyroJerk.std.Y
-  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity jerk in the y-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity jerk in the y-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyGyroJerk-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
+  4. In the raw data set the values of the feature denoted by "fBodyGyroJerk-std()-Y" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.
   
 ###fBodyGyroJerk.std.Z
-  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity jerk in the z-direction
+  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity jerk in the z-direction (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyGyroJerk-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "fBodyGyroJerk-std()-Z" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###fBodyAccMag.mean
-  1. The mean (for fixed subject and activity) of the means of body acceleration magnitude
+  1. The mean (for fixed subject and activity) of the means of body acceleration magnitude (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyAccMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "fBodyAccMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###fBodyAccMag.std
-  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration magnitude
+  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration magnitude (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyAccMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "fBodyAccMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
 
 ###fBodyAccJerkMag.mean
-  1. The mean (for fixed subject and activity) of the means of body acceleration jerk magnitude
+  1. The mean (for fixed subject and activity) of the means of body acceleration jerk magnitude (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyAccJerkMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "fBodyAccJerkMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###fBodyAccJerkMag.std
-  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration jerk magnitude
+  1. The mean (for fixed subject and activity) of the standard deviations of body acceleration jerk magnitude (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyAccJerkMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.   
+  4. In the raw data set the values of the feature denoted by "fBodyAccJerkMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.   
 
 ###fBodyGyroMag.mean
-  1. The mean (for fixed subject and activity) of the means of body angular velocity magnitude
+  1. The mean (for fixed subject and activity) of the means of body angular velocity magnitude (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyGyroMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "fBodyGyroMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###fBodyGyroMag.std
-  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity magnitude
+  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity magnitude (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyGyroMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.   
+  4. In the raw data set the values of the feature denoted by "fBodyGyroMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.   
 
 ###fBodyGyroJerkMag.mean
-  1. The mean (for fixed subject and activity) of the means of body angular velocity jerk magnitude
+  1. The mean (for fixed subject and activity) of the means of body angular velocity jerk magnitude (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyGyroJerkMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
+  4. In the raw data set the values of the feature denoted by "fBodyGyroJerkMag-mean()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.  
   
 ###fBodyGyroJerkMag.std
-  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity jerk magnitude
+  1. The mean (for fixed subject and activity) of the standard deviations of body angular velocity jerk magnitude (frequency domain signals)
   2. numeric
   3. -1..1
-  4. In the raw data set the values of the feature denoted by "fBodyGyroJerkMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values acrcoss all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.     
+  4. In the raw data set the values of the feature denoted by "fBodyGyroJerkMag-std()" have already been normalized to be within -1 and 1. The value of this variable is obtained by taking the mean of these feature values across all records for a fixed subject and a fixed activity. Due to normalization this variable has no unit.     
