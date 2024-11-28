@@ -79,7 +79,7 @@ From the data set in previous step, we create a second, independent tidy data se
 To take the means within groups given by the two variables "subject" and "activity", we use the "data.table"
 library. First convert data frame "df" into data table "dt", and use the "lapply" function on columns 3 to 68 to take the means. The 'by="subject,activity"' suggests that the grouping is with respect to "subject" and "activity".
 
-The result is stored in the data table "mean_result" (180\*68).
+The result is stored in the data table "mean_result" (180\*68). 
 
 
 ```r
